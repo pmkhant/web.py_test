@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.6"
+# command to install dependencies
+install:
+  - pip install web.py==0.40.dev0
+# command to run tests
+script: pytest
